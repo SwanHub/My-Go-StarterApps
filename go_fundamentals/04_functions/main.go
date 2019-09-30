@@ -1,0 +1,16 @@
+package main
+
+import "fmt"
+
+func greeting(name string) string { // return type
+	return "Hello " + name
+}
+
+func getSum(num1, num2 int) int { //defines both as int w/in parentheses
+	return num1 + num2
+}
+
+func main() {
+	fmt.Println(greeting("world"))
+	fmt.Println(getSum(1, 2))
+}
